@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Q1 . embed a video -->
+    <div>
+      <video src="./18168-stay-safe-stay-home.mp4" controls autoplay></video>
+    </div>
+    <!-- Q2 . embed a youtube video -->
+    <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/0SZiI4OnhYk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe
+      >">
+    </div>
+    <!-- Q3 . Travel form -->
+    <h1>TRAVEL FORM</h1>
+    <br />
+    <form action="post.php">
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="enter your name :"
+      />
+      <br />
+      <input type="radio" name="section" id="sectiona" />A <br />
+      <input type="radio" name="section" id="sectionc" />B <br />
+      <input type="radio" name="section" id="sectionb" />C <br />
+      <input type="phone" name="phone" id="phone" placeholder="Phone number" />
+      <br />
+      Select your travel date : <br />
+      <input type="date" /><br />
+      Select Car For Your Desitinaition: <br />
+      <select name="selcet" id="selcet">
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option></select
+      ><br />
+      <textarea name="msg" id="msg" cols="30" rows="10">Your Mesage :</textarea
+      ><br />
+      <input type="button" value="submit" /><br />
+    </form>
+    <!-- Q4 . cricket player table -->
+    <table>
+      <thead>
+        <tr>
+          Player
+        </tr>
+        <tr>
+          Runs
+        </tr>
+        <tr>
+          Balls
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rohit</td>
+          <td>37</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Dhawan</td>
+          <td>67</td>
+          <td>56</td>
+        </tr>
+        <tr>
+          <td>Pant</td>
+          <td>78</td>
+          <td>62</td>
+        </tr>
+        <tr>
+          <td>Pandya</td>
+          <td>64</td>
+          <td>44</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
